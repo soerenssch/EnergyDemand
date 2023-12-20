@@ -14,7 +14,8 @@ The repository has the following structure:
 5. App development
 
 
-
+App link:
+xx
 
 Data sources:
 XX
