@@ -20,11 +20,22 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
 02 - Data Pre-processing
   1. `data_handling.ipynb` - Primary notebook for initial data processing and handling.
 
-Data exploration
+03 - Data exploration
+  1. `data_exploration.ipynb` - Data exploration and time series analytics, to gain understanding of the data structure.
 
-Model Benchmarking
+04 - Model Benchmarking
+  0. `040_benchmarking_setup.ipynb` - Definition of our setup for benchmarking different ML models. 
+  1. `041_bm_exponential_smoothing.ipynb` - Exponentential smoothing model (univariate) benchmark.
+  2. `042_bm_XGB.ipynb` - XGB model (multivariate) benchmark. 
+  3. `043_bm_ARIMA.ipynb` - ARIMA model (univariate) benchmark. 
+  4. `044_bm_SARIMAX.ipynb` - SARIMAX model (multivariate) benchmark.
+  5. `045_bm_mstl.ipynb` - Multiseasonal Timeseries decomposition for complex time series approaches.
+  6. `046_bm_decomposed.ipynb` - Combined approach using ARIMA, XGB and NAIVE forecasting. 
+  7. `047_bm_prophet_uni.ipynb` - Prophet model (univariate) benchmark. 
+  8. `048_bm_prophet_multi.ipynb` - Prophet model (multivariate) benchmark.
+  9. `049_bm_prophet_multi_tune.ipynb` - Tuned Prophet model (multivariate) benchmark.
 
-App development
+05 - App development
 
 ---
 
