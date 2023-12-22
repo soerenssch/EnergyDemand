@@ -1,9 +1,0 @@
-python -m venv .venv
-
-source .venv/bin/activate
-
-pip install -r requirements.txt
-
-# REPLACE API KEY in .streamlit/secrets.toml
-
-streamlit run UK_Energy_Demand.py
