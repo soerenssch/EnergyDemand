@@ -13,9 +13,13 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
   1.  `custom` - Data structures created by various python scripts that run when executing the app
   2.  `external` - Historical data that is not fetched live and was retrieved from various outside sources. 
 
+
 01 - Data Fetching
-  1.  `weather_data_pull.py` - Script to pull weather data from the OpenWeatherMap API.
-  2.  `weather_data_process.py` - Script for processing the raw weather data.
+  1.  `011_Live_Weather_Data.ipynb` - Live fetching of the energy demand and weather data for our streamlit app.
+  2.  `012_Historic_Energy_Demand.ipynb` - Fetching of historic energy demand for model training. 
+  2.  `secret.py` - secret file for API-keys.
+  4.  `weather_data_pull.py` - Script to pull weather data from the OpenWeatherMap API.
+  5.  `weather_data_process.py` - Script for processing the raw weather data.
 
 02 - Data Pre-processing
   1. `022_Merge_Weather_and_Demand.ipynb` - Merging our key historical data for training and benchmarking.
