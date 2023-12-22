@@ -33,7 +33,7 @@ To set up this project, clone the repository and install the required dependenci
 ```bash
 git clone <repository-url>
 cd <repository-name>
-pip install -r requirements.txt
+pip install [dependencies]
 ```
 
 ---
