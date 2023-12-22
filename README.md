@@ -5,14 +5,32 @@ Our goal is to provide energy traders with information, so they can make informe
 
 Our approach uses historic weather and energy demand data from the UK, ranging from 2018 to 2023. 
 
-The repository has the following structure:
+---
+
+## Repo Structure
 
 1. Data Fetching
-2. Data Pre-processing
-3. Data exploration
-4. Model Benchmarking
-5. App development
+  1.  `weather_data_pull.py` - Script to pull weather data from the OpenWeatherMap API.
+  2.  `weather_data_process.py` - Script for processing the raw weather data.
+3. Data Pre-processing
+  1. Primary notebook for initial data processing and handling.
+5. Data exploration
+6. Model Benchmarking
+7. App development
 
+---
+
+## Installation
+To set up this project, clone the repository and install the required dependencies:
+```bash
+git clone <repository-url>
+cd <repository-name>
+pip install -r requirements.txt
+```
+
+---
+
+## Miscellaneous 
 
 App link:
 xx
