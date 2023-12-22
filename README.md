@@ -12,10 +12,14 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
 Data Fetching
   1.  `weather_data_pull.py` - Script to pull weather data from the OpenWeatherMap API.
   2.  `weather_data_process.py` - Script for processing the raw weather data.
+
 Data Pre-processing
-  1. Primary notebook for initial data processing and handling.
+  1. `data_handling.ipynb` - Primary notebook for initial data processing and handling.
+
 Data exploration
+
 Model Benchmarking
+
 App development
 
 ---
