@@ -43,6 +43,7 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
   9. `049_bm_prophet_multi_tune.ipynb` - Tuned Prophet model (multivariate) benchmark.
 
 05 - App development
+  see `README.md` in `05_Streamlit_App`
 
 ---
 
