@@ -24,7 +24,8 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
   1. `data_exploration.ipynb` - Data exploration and time series analytics, to gain understanding of the data structure.
 
 04 - Model Benchmarking
-  0. `040_benchmarking_setup.ipynb` - Definition of our setup for benchmarking different ML models. 
+
+`040_benchmarking_setup.ipynb` - Definition of our setup for benchmarking different ML models. 
   1. `041_bm_exponential_smoothing.ipynb` - Exponentential smoothing model (univariate) benchmark.
   2. `042_bm_XGB.ipynb` - XGB model (multivariate) benchmark. 
   3. `043_bm_ARIMA.ipynb` - ARIMA model (univariate) benchmark. 
