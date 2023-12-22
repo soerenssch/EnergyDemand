@@ -48,6 +48,3 @@ Data sources:
 - Historic Weather Data - https://openweathermap.org/history-bulk
 - Real-time Weather Data - https://openweathermap.org/api
 
-API link:
-XX
-
