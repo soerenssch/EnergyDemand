@@ -27,7 +27,7 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
   2. `data_handling.ipynb` - Primary notebook for initial data processing and handling. For initial Modelling purpose, not used further in our benchmarking and App.
 
 03 - Data exploration
-  1. `data_exploration.ipynb` - Data exploration and time series analytics, to gain understanding of the data structure.
+  1. `030_Data_exploration.ipynb` - Data exploration and time series analytics, to gain understanding of the data structure.
 
 04 - Model Benchmarking
 
