@@ -1,0 +1,7 @@
+streamlit
+git+https://github.com/tomharvey/ElexonDataPortal.git@pandas-version-tz-compare
+plotly
+pandas
+schedule
+tbats
+prophet
