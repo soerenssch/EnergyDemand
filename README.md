@@ -10,7 +10,7 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
 ## Repo Structure
 
 00 - Data
-  1.  `custom` - Data structures created by various python scripts that run when executing the app
+  1.  `custom` - Data structures created by various python scripts for inital exploratory data analysis and modeling.
   2.  `external` - Historical data that is not fetched live and was retrieved from various outside sources. 
 
 
