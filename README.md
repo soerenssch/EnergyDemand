@@ -17,12 +17,14 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
 01 - Data Fetching
   1.  `011_Live_Weather_Data.ipynb` - Live fetching of the energy demand and weather data for our streamlit app.
   2.  `012_Historic_Energy_Demand.ipynb` - Fetching of historic energy demand for model training. 
-  2.  `secret.py` - secret file for API-keys.
-  4.  `weather_data_pull.py` - Script to pull weather data from the OpenWeatherMap API.
-  5.  `weather_data_process.py` - Script for processing the raw weather data.
+  3.  `secret_energy_demand.py` - secret file for energy demand API-key.
+  4.  `secret_weather.py` - secret file for weather API-key.
+  5.  `weather_data_pull.py` - Script to pull weather data from the OpenWeatherMap API. (initial version)
+  6.  `weather_data_process.py` - Script for processing the raw weather data. (initial version)
 
 02 - Data Pre-processing
-  1. `data_handling.ipynb` - Primary notebook for initial data processing and handling. For initial Modelling purpose, not used further in our benchmarking and App.
+  1. `022_Merge_Weather_and_Demand.ipynb` - Data merging. 
+  2. `data_handling.ipynb` - Primary notebook for initial data processing and handling. For initial Modelling purpose, not used further in our benchmarking and App.
 
 03 - Data exploration
   1. `data_exploration.ipynb` - Data exploration and time series analytics, to gain understanding of the data structure.
