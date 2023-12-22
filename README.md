@@ -44,7 +44,9 @@ App link:
 xx
 
 Data sources:
-
+- Historic Energy Demand Data - https://www.nationalgrideso.com/data-portal/historic-demand-data/historic_demand_data_2023
+- Historic Weather Data - https://openweathermap.org/history-bulk
+- Real-time Weather Data - https://openweathermap.org/api
 
 API link:
 XX
