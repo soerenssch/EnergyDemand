@@ -12,7 +12,7 @@ url = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&app
 
 response = requests.get(url)
 
-file_path = 'data/custom/current_forecast_london.json'
+file_path = '00_Data/custom/current_forecast_london.json'
 
 if response.status_code == 200:
     data = response.json()
@@ -29,7 +29,7 @@ url = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&app
 
 response = requests.get(url)
 
-file_path = 'data/custom/current_forecast_liverpool.json'
+file_path = '00_Data/custom/current_forecast_liverpool.json'
 
 if response.status_code == 200:
     data = response.json()
@@ -46,7 +46,7 @@ url = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&app
 
 response = requests.get(url)
 
-file_path = 'data/custom/current_forecast_bath.json'
+file_path = '00_Data/custom/current_forecast_bath.json'
 
 if response.status_code == 200:
     data = response.json()
@@ -54,4 +54,5 @@ if response.status_code == 200:
         json.dump(data, file)
 else:
     print("Failed to retrieve data")
+
 

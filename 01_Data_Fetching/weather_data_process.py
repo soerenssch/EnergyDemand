@@ -10,7 +10,7 @@ columns = ['city', 'datetime', 'temp', 'temp_min', 'temp_max', 'humidity']
 df = pd.DataFrame(columns=columns)
 
 for city in cities:
-    with open(f'data/custom/current_forecast_{city}.json', 'r') as file:
+    with open(f'00_Data/custom/current_forecast_{city}.json', 'r') as file:
         data = json.load(file)
 
     # Iterate over each item in the data list
@@ -27,7 +27,7 @@ for city in cities:
                         'humidity': humidity}, ignore_index=True)
 
 # Save the DataFrame to CSV
-df.to_csv('data/custom/forecasts_combined.csv')
+df.to_csv('00_Data/custom/forecasts_combined.csv')
 
 # Print the DataFrame
 print(df)
