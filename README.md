@@ -23,7 +23,7 @@ Our approach uses historic weather and energy demand data from the UK, ranging f
   6.  `weather_data_process.py` - Script for processing the raw weather data. (initial version)
 
 02 - Data Pre-processing
-  1. `022_Merge_Weather_and_Demand.ipynb` - Data merging. 
+  1. `022_Merge_Weather_and_Demand.ipynb` - Merging our key historical data for training and benchmarking.
   2. `data_handling.ipynb` - Primary notebook for initial data processing and handling. For initial Modelling purpose, not used further in our benchmarking and App.
 
 03 - Data exploration
